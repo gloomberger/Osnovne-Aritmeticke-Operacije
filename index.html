@@ -10,7 +10,7 @@
 
     <h2>Program za obavljanje osnovnih aritmetičkih operacija</h2>
 
-    <input type="number" id="number_1" name="" >
+    <input type="number" id="number_1" name="one" >
 
      &nbsp;
      <button onclick="addition()" id="addition" >+</button>
@@ -20,7 +20,7 @@
      &nbsp;
 
      <input type="hidden" id="operator">
-     <input type="number" id="number_2" name="" ><br><br>
+     <input type="number" id="number_2" name="two" ><br><br>
      <input type="submit" value="Izračunaj" onclick="calculator()">
 
      <script>
@@ -45,6 +45,7 @@
         function division() {
             operator.value = 'division'
         }
+
 
         function calculator()
          {
