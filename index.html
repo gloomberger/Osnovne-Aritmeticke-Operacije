@@ -46,7 +46,15 @@
          {
             const number_1 = parseInt(num1.value);
             const number_2 = parseInt(num2.value);
-            let sum;  
+            let sum;
+            
+            switch (operator.value) {
+                case 'addition': 
+                   sum = isNaN(number1 + number2) ? "Niste uneli broj": number1 + number2;
+                   alert(sum);
+                   break;
+                case 'subtraction':    
+            }
          }
      </script>
     
