@@ -20,7 +20,9 @@
      &nbsp;
 
      <input type="hidden" id="operator">
+
      <input type="number" id="number_2" name="two" ><br><br>
+
      <input type="submit" value="Izračunaj" onclick="calculator()">
 
      <script>
@@ -48,9 +50,9 @@
 
 
         function calculator()
-         {
-            const number_1 = parseInt(num1.value);
-            const number_2 = parseInt(num2.value);
+        {
+            const number1 = parseInt(num1.value);
+            const number2 = parseInt(num2.value);
             let sum;
             
           switch (operator.value) {
@@ -75,7 +77,7 @@
                    alert('Niste uneli ni jednu operaciju');
                    break;
             }
-         }
+        }
 
      </script>
     
