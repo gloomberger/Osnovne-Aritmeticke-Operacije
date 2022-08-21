@@ -23,7 +23,32 @@
      <input type="number" id="number_2" name="" ><br><br>
      <input type="submit" value="Izračunaj" onclick="calculator()">
 
+     <script>
 
+        const num1 = document.getElementById("number_1");
+        const num2 = document.getElementById("number_2");
+        const operator = document.getElementById("operator");
+
+
+        function addition() {
+            operator.value = 'addition';
+        }
+
+        function subtraction() {
+            operator.value = 'subtraction';
+        }
+
+        function multiplication() {
+            operator.value = 'division';
+        }
+
+        function calculator()
+         {
+            const number_1 = parseInt(num1.value);
+            const number_2 = parseInt(num2.value);
+            let sum;  
+         }
+     </script>
     
 </body>
 </html>
